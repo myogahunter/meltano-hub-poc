@@ -1,0 +1,10 @@
+name: target-jsonl
+namespace: target_jsonl
+variant: andyh1203
+label: JSON Lines (JSONL)
+description: Load data into JSONL files.
+pip_url: target-jsonl
+settings:
+  - name: destination_path
+    kind: string
+    description: Output directory for JSONL files.

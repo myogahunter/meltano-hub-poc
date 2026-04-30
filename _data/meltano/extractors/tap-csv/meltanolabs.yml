@@ -1,0 +1,14 @@
+name: tap-csv
+namespace: tap_csv
+variant: meltanolabs
+label: CSV
+description: Extract data from CSV files.
+pip_url: git+https://github.com/MeltanoLabs/tap-csv.git
+capabilities:
+  - catalog
+  - discover
+  - state
+settings:
+  - name: files
+    kind: array
+    description: Array of objects with 'path', 'entity', 'keys' properties.
